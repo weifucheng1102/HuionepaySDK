@@ -1,0 +1,6 @@
+framework module Pods_huionepaySDK_Example {
+  umbrella header "Pods-huionepaySDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

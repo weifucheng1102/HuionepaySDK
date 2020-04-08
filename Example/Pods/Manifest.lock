@@ -1,0 +1,16 @@
+PODS:
+  - huionepaySDK (0.1.0)
+
+DEPENDENCIES:
+  - huionepaySDK (from `../`)
+
+EXTERNAL SOURCES:
+  huionepaySDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  huionepaySDK: e5e08497a59ac7eb9b76309ce819021e577b139c
+
+PODFILE CHECKSUM: d80d283a2df15b6ed6e20c0b04bcd3cf4dbc0386
+
+COCOAPODS: 1.7.4

@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		3FA0ED18AE512CE19847B6E7 /* Pods-huionepaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-huionepaySDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-huionepaySDK_Tests/Pods-huionepaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5AD70D1EC1CC49EA4E58C4FB /* huionepaySDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = huionepaySDK.podspec; path = ../huionepaySDK.podspec; sourceTree = "<group>"; };
+		5AD70D1EC1CC49EA4E58C4FB /* huionepaySDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = huionepaySDK.podspec; path = ../huionepaySDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* huionepaySDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = huionepaySDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,13 +59,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		753F0D06501EACC356AD7231 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		753F0D06501EACC356AD7231 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		761BC59B896C73B52B3B8423 /* Pods-huionepaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-huionepaySDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-huionepaySDK_Example/Pods-huionepaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D3A6AFDD7EF47A56EF6742C /* Pods-huionepaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-huionepaySDK_Example.release.xcconfig"; path = "Target Support Files/Pods-huionepaySDK_Example/Pods-huionepaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BF4A5F207E6D4DB3B74FA01B /* Pods_huionepaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_huionepaySDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A520AEB8180DDA2DCDC8F1 /* Pods-huionepaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-huionepaySDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-huionepaySDK_Tests/Pods-huionepaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E135010345C2C7732C05BEDD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E135010345C2C7732C05BEDD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FD294CE4C032B229AC0DE793 /* Pods_huionepaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_huionepaySDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				3FA0ED18AE512CE19847B6E7 /* Pods-huionepaySDK_Tests.debug.xcconfig */,
 				E0A520AEB8180DDA2DCDC8F1 /* Pods-huionepaySDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,22 @@
+{
+  "name": "huionepaySDK",
+  "version": "0.1.0",
+  "summary": "A short description of huionepaySDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/weifucheng1102/huionepaySDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "weifucheng1102": "770534748@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/weifucheng1102/huionepaySDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "huionepaySDK/Classes/**/*"
+}

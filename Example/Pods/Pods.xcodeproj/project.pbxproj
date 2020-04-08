@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0341BF104073AC922458DD58AA06AACA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		27DCE3265DB8F6701356993E3FEDE9DB /* huionepaySDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D6F02EEA22A52190F7B2F115A40CA26 /* huionepaySDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636EA0D5F08E6DF8324B26A30562A057 /* Pods-huionepaySDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 855CA6D91BE129F1FC576387EA408E71 /* Pods-huionepaySDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F5C3709752157AC7181641A9DF19CAB /* Pods-huionepaySDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63953E4825642A82D658C9D7D5063F3B /* Pods-huionepaySDK_Tests-dummy.m */; };
+		803280528FEC05420942CE2FA13949A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A5B2BEB7E84096D3BD4608AE4D49A1C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B7F47CE83977A7AF700973D89729FC2A /* huionepaySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BFB5E254A6D7BDCB0AABF2F0EB10C5 /* huionepaySDK-dummy.m */; };
+		DCB82CD15A16073ADCA4B7CA30DA6E48 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A978F58E83E0B5AAAE46784663984C /* ReplaceMe.m */; };
+		E8F10C395884750B080C872159219E5A /* Pods-huionepaySDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A340CE212A4EB0EB0BFC413E429DA80 /* Pods-huionepaySDK_Example-dummy.m */; };
+		F7D6DBE9594A129A69CD7093F43A619A /* Pods-huionepaySDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 495520CB8CB439FE08CE99F18DED3FC5 /* Pods-huionepaySDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66DD37FB56DCE25174739C33749CD4B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EC9E4A10F0B7CD61250BFD614111BFA;
+			remoteInfo = "Pods-huionepaySDK_Example";
+		};
+		D48D1FC7D26362D75EC3AAB50E7BFA50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B45DF2C7354E012031BC12D6AE3B9025;
+			remoteInfo = huionepaySDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02BFB5E254A6D7BDCB0AABF2F0EB10C5 /* huionepaySDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "huionepaySDK-dummy.m"; sourceTree = "<group>"; };
+		02ED3381312DDA080DC39607B119437C /* Pods-huionepaySDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-huionepaySDK_Example.modulemap"; sourceTree = "<group>"; };
+		059B555104CB538387F26C0232C960E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1108C142A6B281630FF3ED8C749007C4 /* Pods-huionepaySDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-huionepaySDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		11A978F58E83E0B5AAAE46784663984C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = huionepaySDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		1E67A1FAB814761D75744D3F59FBA70D /* Pods-huionepaySDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-huionepaySDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		21B5335D15C5251C2B91C9ACA4B4503E /* Pods-huionepaySDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-huionepaySDK_Example-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B509146BF8CEEC3E58C0E43A0C79D9B /* Pods-huionepaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huionepaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		495520CB8CB439FE08CE99F18DED3FC5 /* Pods-huionepaySDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-huionepaySDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		4D6F02EEA22A52190F7B2F115A40CA26 /* huionepaySDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "huionepaySDK-umbrella.h"; sourceTree = "<group>"; };
+		4D78F5D0AFA2A1221AAE326464E91126 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		500ABF50EE7DEE73AFB6B9AA60A77348 /* huionepaySDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "huionepaySDK-Info.plist"; sourceTree = "<group>"; };
+		527871D0ABDBE8E910A006F40D7938A0 /* Pods_huionepaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_huionepaySDK_Tests.framework; path = "Pods-huionepaySDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7E92A46CAFC34E532FAF175CBEE8C5 /* huionepaySDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = huionepaySDK.modulemap; sourceTree = "<group>"; };
+		5F6C31822D57B836C935F7A52B06C6DB /* Pods-huionepaySDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-huionepaySDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60911B559AF484A07BB908A65C3DFBA9 /* Pods-huionepaySDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-huionepaySDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63953E4825642A82D658C9D7D5063F3B /* Pods-huionepaySDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-huionepaySDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		6C6BE89474D8F661E1CAB4BC9F0D2A27 /* Pods-huionepaySDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-huionepaySDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		76908C0F806CEBC551FC5F4CD0EEDC44 /* huionepaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = huionepaySDK.framework; path = huionepaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		855CA6D91BE129F1FC576387EA408E71 /* Pods-huionepaySDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-huionepaySDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		86F64FCF964787C6063B19D4A5F1970D /* Pods-huionepaySDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-huionepaySDK_Tests.modulemap"; sourceTree = "<group>"; };
+		877F201B7F4BB1D127D93F01AB2F0011 /* Pods-huionepaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huionepaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8A340CE212A4EB0EB0BFC413E429DA80 /* Pods-huionepaySDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-huionepaySDK_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A41A638C04BDB24632A90BCFB6301B61 /* Pods-huionepaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huionepaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		ACCB712F2ACA94CC3CAEFD87443D9547 /* huionepaySDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = huionepaySDK.xcconfig; sourceTree = "<group>"; };
+		C7D466D3F2E218EACB256987310CDB7A /* huionepaySDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = huionepaySDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CB6E15F5A3B1EBF858946224AAFF8BF7 /* Pods_huionepaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_huionepaySDK_Example.framework; path = "Pods-huionepaySDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB848D0D58CFFA391CAED12BA454C501 /* huionepaySDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "huionepaySDK-prefix.pch"; sourceTree = "<group>"; };
+		DBE2D57F5F492F8A654497ACD5373F9A /* Pods-huionepaySDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-huionepaySDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC239556DC6034DC5EAA7D3DA9742583 /* Pods-huionepaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huionepaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D633F1C353BF619A9131B4CD4A70749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803280528FEC05420942CE2FA13949A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8C351EEBB5A0796B1B99589E16CD6EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0341BF104073AC922458DD58AA06AACA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16A4777F815DAE995808AF52CD4F3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B2BEB7E84096D3BD4608AE4D49A1C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B091045ED05FFF8B47B9B57178FE0CC /* Pods-huionepaySDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				02ED3381312DDA080DC39607B119437C /* Pods-huionepaySDK_Example.modulemap */,
+				5F6C31822D57B836C935F7A52B06C6DB /* Pods-huionepaySDK_Example-acknowledgements.markdown */,
+				DBE2D57F5F492F8A654497ACD5373F9A /* Pods-huionepaySDK_Example-acknowledgements.plist */,
+				8A340CE212A4EB0EB0BFC413E429DA80 /* Pods-huionepaySDK_Example-dummy.m */,
+				6C6BE89474D8F661E1CAB4BC9F0D2A27 /* Pods-huionepaySDK_Example-frameworks.sh */,
+				21B5335D15C5251C2B91C9ACA4B4503E /* Pods-huionepaySDK_Example-Info.plist */,
+				495520CB8CB439FE08CE99F18DED3FC5 /* Pods-huionepaySDK_Example-umbrella.h */,
+				877F201B7F4BB1D127D93F01AB2F0011 /* Pods-huionepaySDK_Example.debug.xcconfig */,
+				A41A638C04BDB24632A90BCFB6301B61 /* Pods-huionepaySDK_Example.release.xcconfig */,
+			);
+			name = "Pods-huionepaySDK_Example";
+			path = "Target Support Files/Pods-huionepaySDK_Example";
+			sourceTree = "<group>";
+		};
+		1671A3AA31DC7362E56C13A6E122FBFC /* huionepaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				11A978F58E83E0B5AAAE46784663984C /* ReplaceMe.m */,
+				C03504381D00C619C24C3393ED41B154 /* Pod */,
+				3F2E5917713B1A0925C865DC64EC2A58 /* Support Files */,
+			);
+			name = huionepaySDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3F2E5917713B1A0925C865DC64EC2A58 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A7E92A46CAFC34E532FAF175CBEE8C5 /* huionepaySDK.modulemap */,
+				ACCB712F2ACA94CC3CAEFD87443D9547 /* huionepaySDK.xcconfig */,
+				02BFB5E254A6D7BDCB0AABF2F0EB10C5 /* huionepaySDK-dummy.m */,
+				500ABF50EE7DEE73AFB6B9AA60A77348 /* huionepaySDK-Info.plist */,
+				CB848D0D58CFFA391CAED12BA454C501 /* huionepaySDK-prefix.pch */,
+				4D6F02EEA22A52190F7B2F115A40CA26 /* huionepaySDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/huionepaySDK";
+			sourceTree = "<group>";
+		};
+		857601DCDB408E7C6A74917029BBF543 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1671A3AA31DC7362E56C13A6E122FBFC /* huionepaySDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		894593BCC803D3C88AF35515B96CC818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76908C0F806CEBC551FC5F4CD0EEDC44 /* huionepaySDK.framework */,
+				CB6E15F5A3B1EBF858946224AAFF8BF7 /* Pods_huionepaySDK_Example.framework */,
+				527871D0ABDBE8E910A006F40D7938A0 /* Pods_huionepaySDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0A331CDF0562557456443DBFABC4931 /* Pods-huionepaySDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				86F64FCF964787C6063B19D4A5F1970D /* Pods-huionepaySDK_Tests.modulemap */,
+				60911B559AF484A07BB908A65C3DFBA9 /* Pods-huionepaySDK_Tests-acknowledgements.markdown */,
+				1E67A1FAB814761D75744D3F59FBA70D /* Pods-huionepaySDK_Tests-acknowledgements.plist */,
+				63953E4825642A82D658C9D7D5063F3B /* Pods-huionepaySDK_Tests-dummy.m */,
+				1108C142A6B281630FF3ED8C749007C4 /* Pods-huionepaySDK_Tests-Info.plist */,
+				855CA6D91BE129F1FC576387EA408E71 /* Pods-huionepaySDK_Tests-umbrella.h */,
+				EC239556DC6034DC5EAA7D3DA9742583 /* Pods-huionepaySDK_Tests.debug.xcconfig */,
+				3B509146BF8CEEC3E58C0E43A0C79D9B /* Pods-huionepaySDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-huionepaySDK_Tests";
+			path = "Target Support Files/Pods-huionepaySDK_Tests";
+			sourceTree = "<group>";
+		};
+		AEE94C483B45BE1617BC9ECBB56076D7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B091045ED05FFF8B47B9B57178FE0CC /* Pods-huionepaySDK_Example */,
+				A0A331CDF0562557456443DBFABC4931 /* Pods-huionepaySDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C03504381D00C619C24C3393ED41B154 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C7D466D3F2E218EACB256987310CDB7A /* huionepaySDK.podspec */,
+				059B555104CB538387F26C0232C960E8 /* LICENSE */,
+				4D78F5D0AFA2A1221AAE326464E91126 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				857601DCDB408E7C6A74917029BBF543 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				894593BCC803D3C88AF35515B96CC818 /* Products */,
+				AEE94C483B45BE1617BC9ECBB56076D7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9FE6F2598FF506F8CD393AB8FCE6CFCB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DCE3265DB8F6701356993E3FEDE9DB /* huionepaySDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC39FBDA96F6CF9CC8E5280228D7D15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D6DBE9594A129A69CD7093F43A619A /* Pods-huionepaySDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE23C75D1920ABF51570BAB7BF8E34A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636EA0D5F08E6DF8324B26A30562A057 /* Pods-huionepaySDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6EC9E4A10F0B7CD61250BFD614111BFA /* Pods-huionepaySDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35E3DDA06E5BC608D14B55BBC762055 /* Build configuration list for PBXNativeTarget "Pods-huionepaySDK_Example" */;
+			buildPhases = (
+				CFC39FBDA96F6CF9CC8E5280228D7D15 /* Headers */,
+				0D6CB1FBD9BE3796A05D37FDF6E94199 /* Sources */,
+				7D633F1C353BF619A9131B4CD4A70749 /* Frameworks */,
+				E6C9E88798CDB19B6F4365802DAB03A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38932F09817E87DB10B7A849995CDDC3 /* PBXTargetDependency */,
+			);
+			name = "Pods-huionepaySDK_Example";
+			productName = "Pods-huionepaySDK_Example";
+			productReference = CB6E15F5A3B1EBF858946224AAFF8BF7 /* Pods_huionepaySDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1B261C94640BBB55965BE26429B5EBF /* Pods-huionepaySDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72044E58AEE70B8F39AB6FDCCDBA8DD4 /* Build configuration list for PBXNativeTarget "Pods-huionepaySDK_Tests" */;
+			buildPhases = (
+				EFE23C75D1920ABF51570BAB7BF8E34A /* Headers */,
+				71BDC0B4A1909A6DDC62752BA524C3BD /* Sources */,
+				F16A4777F815DAE995808AF52CD4F3BD /* Frameworks */,
+				726E7D5114E022292AD4495CA51B1628 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62CE3FA4041094D89BE8A573AD90930A /* PBXTargetDependency */,
+			);
+			name = "Pods-huionepaySDK_Tests";
+			productName = "Pods-huionepaySDK_Tests";
+			productReference = 527871D0ABDBE8E910A006F40D7938A0 /* Pods_huionepaySDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B45DF2C7354E012031BC12D6AE3B9025 /* huionepaySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF23C5C2C7494657B82F2B2CC045BF7A /* Build configuration list for PBXNativeTarget "huionepaySDK" */;
+			buildPhases = (
+				9FE6F2598FF506F8CD393AB8FCE6CFCB /* Headers */,
+				8292EF43DE3EF2239F162A66635F0DFB /* Sources */,
+				B8C351EEBB5A0796B1B99589E16CD6EF /* Frameworks */,
+				C7B99AC02B223FE080448A681052D185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = huionepaySDK;
+			productName = huionepaySDK;
+			productReference = 76908C0F806CEBC551FC5F4CD0EEDC44 /* huionepaySDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 894593BCC803D3C88AF35515B96CC818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B45DF2C7354E012031BC12D6AE3B9025 /* huionepaySDK */,
+				6EC9E4A10F0B7CD61250BFD614111BFA /* Pods-huionepaySDK_Example */,
+				B1B261C94640BBB55965BE26429B5EBF /* Pods-huionepaySDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		726E7D5114E022292AD4495CA51B1628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B99AC02B223FE080448A681052D185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6C9E88798CDB19B6F4365802DAB03A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D6CB1FBD9BE3796A05D37FDF6E94199 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F10C395884750B080C872159219E5A /* Pods-huionepaySDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BDC0B4A1909A6DDC62752BA524C3BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5C3709752157AC7181641A9DF19CAB /* Pods-huionepaySDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8292EF43DE3EF2239F162A66635F0DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F47CE83977A7AF700973D89729FC2A /* huionepaySDK-dummy.m in Sources */,
+				DCB82CD15A16073ADCA4B7CA30DA6E48 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38932F09817E87DB10B7A849995CDDC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = huionepaySDK;
+			target = B45DF2C7354E012031BC12D6AE3B9025 /* huionepaySDK */;
+			targetProxy = D48D1FC7D26362D75EC3AAB50E7BFA50 /* PBXContainerItemProxy */;
+		};
+		62CE3FA4041094D89BE8A573AD90930A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-huionepaySDK_Example";
+			target = 6EC9E4A10F0B7CD61250BFD614111BFA /* Pods-huionepaySDK_Example */;
+			targetProxy = 66DD37FB56DCE25174739C33749CD4B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FECEFA762BCA68CCC30B219FF5FA0D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACCB712F2ACA94CC3CAEFD87443D9547 /* huionepaySDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/huionepaySDK/huionepaySDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/huionepaySDK/huionepaySDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/huionepaySDK/huionepaySDK.modulemap";
+				PRODUCT_MODULE_NAME = huionepaySDK;
+				PRODUCT_NAME = huionepaySDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		14B435991606839F3A4DB86194099015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACCB712F2ACA94CC3CAEFD87443D9547 /* huionepaySDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/huionepaySDK/huionepaySDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/huionepaySDK/huionepaySDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/huionepaySDK/huionepaySDK.modulemap";
+				PRODUCT_MODULE_NAME = huionepaySDK;
+				PRODUCT_NAME = huionepaySDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F5EB7415ED0B47C22B5E9497BA14E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B509146BF8CEEC3E58C0E43A0C79D9B /* Pods-huionepaySDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-huionepaySDK_Tests/Pods-huionepaySDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-huionepaySDK_Tests/Pods-huionepaySDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A517FC8CE4FC6D5D69CCA3F5E7E0B134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 877F201B7F4BB1D127D93F01AB2F0011 /* Pods-huionepaySDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-huionepaySDK_Example/Pods-huionepaySDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-huionepaySDK_Example/Pods-huionepaySDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7FE1740AFC4B7A4E45ED84873C46607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A41A638C04BDB24632A90BCFB6301B61 /* Pods-huionepaySDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-huionepaySDK_Example/Pods-huionepaySDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-huionepaySDK_Example/Pods-huionepaySDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA81EB24EE53C4C1E1ED358AA1BFC223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC239556DC6034DC5EAA7D3DA9742583 /* Pods-huionepaySDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-huionepaySDK_Tests/Pods-huionepaySDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-huionepaySDK_Tests/Pods-huionepaySDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72044E58AEE70B8F39AB6FDCCDBA8DD4 /* Build configuration list for PBXNativeTarget "Pods-huionepaySDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA81EB24EE53C4C1E1ED358AA1BFC223 /* Debug */,
+				3F5EB7415ED0B47C22B5E9497BA14E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF23C5C2C7494657B82F2B2CC045BF7A /* Build configuration list for PBXNativeTarget "huionepaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B435991606839F3A4DB86194099015 /* Debug */,
+				0FECEFA762BCA68CCC30B219FF5FA0D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E35E3DDA06E5BC608D14B55BBC762055 /* Build configuration list for PBXNativeTarget "Pods-huionepaySDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A517FC8CE4FC6D5D69CCA3F5E7E0B134 /* Debug */,
+				B7FE1740AFC4B7A4E45ED84873C46607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
